@@ -21,7 +21,7 @@ ________________________________
 Running the project
 
 Step-1:
-Download the project file from github and extract the zip file, move the SE folder to your system's /opt/lamp/htdocs folder.
+Download the project file from github and extract the zip file, rename this folder as 'SE' and move this SE folder to your system's /opt/lamp/htdocs folder.
 
 Step-2: 
 In Xampp phpmyadmin create the database FinancialGrantManagementSystem, import the database file from SE/include/FinancialGrantManagementSystem.sql
