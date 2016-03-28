@@ -19,7 +19,7 @@ ________________________________________________________________________________
 
 Step-1: Download the project file from github and extract the zip file, move the Financial-Grant-Management-System folder to your system's /opt/lamp/htdocs folder and rename it as SE.
 
-Step-2: In Xampp phpmyadmin create the database Financial Grant Management System, and import the database file from SE/FinancialGrantManagementSystem.sql
+Step-2: In Xampp phpmyadmin create the database FinancialGrantManagementSystem, and import the database file from SE/FinancialGrantManagementSystem.sql
 This will give you all the databases tables which we used for the project under FinancialGrantManagementSystem database.
 
 Step-3: Check include/config.php file once , if all your configuration matches with this. Change password if you gave any password to your root user.
