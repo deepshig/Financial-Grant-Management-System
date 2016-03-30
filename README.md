@@ -15,6 +15,9 @@ To run this project you will be needing localhost, Install Xampp, Wamp or any ot
 For Xampp installation you can refer to this link: http://ubuntuportal.com/2013/12/how-to-install-xampp-1-8-3-for-linux-in-ubuntu-desktop.html
 
 Once you are done with Xampp installation check it once by running localhost/index.php or localhost/phpmyadmin.
+
+Also, an additional library Sweet Alert will be required, which can be installed through the following link:
+http://t4t5.github.io/sweetalert/
 _________________________________________________________________________________________
 
 Step-1: Download the project file from github and extract the zip file, move the Financial-Grant-Management-System folder to your system's /opt/lamp/htdocs folder and rename it as SE.
