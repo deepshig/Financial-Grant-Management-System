@@ -2,17 +2,17 @@
 
 Project Implementation Detail:
 
-Backend: PHP
-Database: MYSQL
-Frontend: Bootstrap, HTML, CSS
-Operating system: Linux
-Local server : Xampp
+Backend: PHP <br>
+Database: MYSQL <br>
+Frontend: Bootstrap, HTML, CSS <br>
+Operating system: Linux <br>
+Local server : Xampp <br>
 _________________________________________________________________________________________
 
 Build Setup for Linux
 
 To run this project you will be needing localhost, Install Xampp, Wamp or any other local server on your machine.
-For Xampp installation you can refer to this link: http://ubuntuportal.com/2013/12/how-to-install-xampp-1-8-3-for-linux-in-ubuntu-desktop.html
+For Xampp installation you can refer to this link: <br> http://ubuntuportal.com/2013/12/how-to-install-xampp-1-8-3-for-linux-in-ubuntu-desktop.html
 
 Once you are done with Xampp installation check it once by running localhost/index.php or localhost/phpmyadmin.
 
