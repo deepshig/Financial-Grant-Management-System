@@ -8,6 +8,7 @@ Frontend: Bootstrap, HTML, CSS <br>
 Operating system: Linux <br>
 Local server : Xampp <br>
 _________________________________________________________________________________________
+_________________________________________________________________________________________
 
 Build Setup for Linux
 
@@ -19,13 +20,17 @@ Once you are done with Xampp installation check it once by running localhost/ind
 Also, an additional library Sweet Alert will be required, which can be installed through the following link:
 http://t4t5.github.io/sweetalert/
 _________________________________________________________________________________________
+_________________________________________________________________________________________
 
 Step-1: Download the project file from github and extract the zip file, move the Financial-Grant-Management-System folder to your system's /opt/lamp/htdocs folder and rename it as SE.
+_________________________________________________________________________________________
 
 Step-2: In Xampp phpmyadmin create the database FinancialGrantManagementSystem, and import the database file from SE/FinancialGrantManagementSystem.sql
 This will give you all the databases tables which we used for the project under FinancialGrantManagementSystem database.
+_________________________________________________________________________________________
 
-Step-3 : You will need to modify php.ini file for the functioning of send notification and upload bills options. You will need root access for this. Firstly, change your working directory to /opt/lampp/etc. Now open php.ini in root mode. <br>
+Step-3 : You will need to modify php.ini file for the functioning of send notification and upload bills options. You will need root access for this. Firstly, change your working directory to /opt/lampp/etc. Now open php.ini in root mode. <br> <br>
+
 A) In the File Uploads section of php.ini, configure as follows: <br>
 ;;;;;;;;;;;;;;;; <br>
 ; File Uploads ; <br>
@@ -70,8 +75,11 @@ mail.add_x_header=On <br>
 
 ; Log all mail() calls including the full path of the script, line #, to address and headers <br>
 ;mail.log = <br>
+_________________________________________________________________________________________
 
+Step-4: Check include/config.php file once , if all your configuration matches with this. Change password if you gave any password to your root user.
+_________________________________________________________________________________________
 
-Step-3: Check include/config.php file once , if all your configuration matches with this. Change password if you gave any password to your root user.
-
-Step-4: After all this setup done, run http://localhost/SE/include/Login.php.
+Step-5: After all this setup done, run http://localhost/SE/include/Login.php.
+_________________________________________________________________________________________
+_________________________________________________________________________________________
