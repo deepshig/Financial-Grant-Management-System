@@ -2,7 +2,24 @@
 
 `This is a term project from my undergraduation. It does not exhibit my current programming skills`
 
-Project Implementation Detail:
+## Objective
+
+The purpose of this software is to manage the records of financial grants of Institute people. It facilitats to request grants as well as settle them, thus allowing research professionals to spend more time on research and discovery and less on administration. Using software for this purpose will avoid any duplicity or manipulation of records and thus stop corruption. It will track pre and post-award information at institution with a significant number of proposals, grants or research projects. It will provide privacy and reliability.
+
+## Project Description
+
+The software system is designed for 2 king of users.
+
+* Admin
+* Institute People (Faculty, PhD and MTech.)
+
+Admin is a super user who can modify (update) all database. He can grant permission to other users if they want to access other user’s information. He verifies registration of new users. Basically all the Institute people will request Admin for the grant, and from there the Admin will handle the financial grant. He can cancel the grant if he found it inappropriate or its not feasible to provide.
+
+Institute poeple are the users that can log into their account using their unique institute email id as username and their own password. These users can access (read) their own database only. They can enter a new grant request but can’t make changes in older one. If they want to make change, they will have to cancel the previous grant and request for a new one. Limits on request will be there based on the roles.
+
+More details can be found [here](http://home.iitj.ac.in/~ug201313008/project1.html).
+
+## Techincal Dependencies:
 
 Backend: PHP <br>
 Database: MYSQL <br>
