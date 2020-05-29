@@ -1,5 +1,7 @@
 # Financial-Grant-Management-System
 
+`This is a term project from my undergraduation. It does not exhibit my current programming skills`
+
 Project Implementation Detail:
 
 Backend: PHP <br>
